@@ -62,7 +62,7 @@ public class BaseObject {
     }
 
     public Rect getRect() {
-        return new Rect((int) this.x, (int) this.y, (int) (this.x + this.width), (int) (this.y + this.height));
+        return new Rect((int)this.x, (int) this.y, (int) this.x + this.width, (int) this.y + this.height);
     }
 
     public void setRect(Rect rect) {
